@@ -1,0 +1,110 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IGame",
+  "sourceName": "contracts/interfaces/IGame.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculateStakingRewards",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "owed",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getHVTokenTraits",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bool",
+              "name": "isRevealed",
+              "type": "bool"
+            },
+            {
+              "internalType": "bool",
+              "name": "isHero",
+              "type": "bool"
+            },
+            {
+              "internalType": "bool",
+              "name": "isGen0",
+              "type": "bool"
+            },
+            {
+              "internalType": "uint16",
+              "name": "level",
+              "type": "uint16"
+            },
+            {
+              "internalType": "uint256",
+              "name": "lastLevelUpgradeTime",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint8",
+              "name": "rank",
+              "type": "uint8"
+            },
+            {
+              "internalType": "uint256",
+              "name": "lastRankUpgradeTime",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint64",
+              "name": "mintedBlockNumber",
+              "type": "uint64"
+            }
+          ],
+          "internalType": "struct INFT.HeroVillain",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getOwnerOfHVToken",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "ownerOf",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
