@@ -64,9 +64,9 @@ export default function Heroes({ setHero }) {
                 onClick={() => gen > 0 && mintGen0(blockchain.account, gen)}
                 class="btn btn-primary btn-yellow mx-3 h5 m-0"
               > MINT GEN0</button>
-              <button
+              {/* <button
                 onClick={() => gen > 0 && mintGen1(blockchain.account, gen)}
-                class="btn btn-primary btn-yellow h5 m-0">MINT GEN1</button>
+                class="btn btn-primary btn-yellow h5 m-0">MINT GEN1</button> */}
             </div>
           </div>
           <span style={{ fontSize: '14px' }}>
